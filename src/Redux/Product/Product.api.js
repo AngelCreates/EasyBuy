@@ -2,8 +2,6 @@ import axios from "axios"
 
 export const getMensProductsAPI = async (page) => {
     let res = await axios.get(`https://vastra.onrender.com/MensData?_limit=12&_page=${page}`)
-    
-    // console.log(res.data)
     return res
 }
 

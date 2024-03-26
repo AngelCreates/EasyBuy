@@ -295,7 +295,7 @@ const Product = () => {
 
                     >
                       {" "}
-                      Mens -
+                      Garments -
                     </Text>{" "}
                     ({totalPages})
                   </Box>
@@ -315,10 +315,10 @@ const Product = () => {
               >
                 {checked ? (
                   <>
-                    {/* {filteredBrandData &&
+                    {filteredBrandData &&
                       filteredBrandData?.map((prod) => (
                         <SingleCard key={prod.id} prod={prod} />
-                      ))} */}
+                      ))}
                   </>
                 ) : (
                   <>
